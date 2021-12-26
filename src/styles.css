@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0px;
+}
+
+input {
+  padding: 7px;
+  border-color: blue;
+  border-radius: 9px;
+  margin-left: 50px;
+}
+
+button {
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.task {
+  margin-top: 20px;
+  background-color: snow;
+  color: white;
+  box-shadow: 60px;
+}
+
+.task:hover {
+  color: red;
+}
+
+li {
+  display: flex;
+  margin-inline: 10px;
+  float: right;
+  padding-inline: 10px;
+  cursor: pointer;
+}
+
+#home {
+  margin: 7px;
+  float: right;
+}
